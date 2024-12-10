@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="A personal portfolio, crafted with HTMl"> 
+    <meta name="author" content="Tyler Wronski"> 
+    <title>Tyler Wronski - Personal Portfolio</title>
+</head>
+<body>
+    <!-- First Section: Profile, Name, and Welcome Message -->
+    <section>
+        <!-- Header for name and profile -->
+        <header>
+            <h1>Hi! I'm Tyler Wronski</h1>
+            <figure>
+                <img src="images/profile.jpg" alt="Profile Picture" style="width: 500px;">
+            </figure>
+        </header>
+        
+        <!-- Welcome Message -->
+        <article style="font-size: large;">Welcome to my personal page! I can't wait to share my personal journey and skillset with you!</article>
+    </section>
+
+    <!-- About Me Section: -->
+    <section>
+        <!-- Short Description About Myself, Background, and Personal Interests-->
+        <h2>About Me</h2>
+        <article>
+            <pre style="font-size: medium;">
+                Although I was originally born and raised in Detroit, Michigan, I am most definitely a California kid.
+                I grew up around the Central Valley, then moved over to the Central Coast shortly after graduating high school in 2015.
+                Growing up I had many changing dreams and life goals, but ultimately have found my calling in computer programming and software engineering! 
+                Besides coding, I'm also super into video games like Valorant/Call of Duty/Overwatch, as well as music production and playing the drums/piano! 
+            </pre>
+        </article>
+
+        <!-- Education and Career Goals -->
+        <h2>Education and Career Goals</h2>
+        
+        <h3>Education</h3>
+        <ul>
+            <li>High School Diploma</li>
+            <li>Cabrillo College - Partial Credits Towards Engineering A.S.</li>
+            <li>Coding Temple - Software Engineering Flex Program</li>
+        </ul>
+
+        <h3>Career Goals</h3>
+        <article style="font-size: medium;">
+            Currently, my educational goal is to complete the Software Engineering program from Coding Temple. Afterwards, I plan to gain experience in front-end development as well as 
+            new programming languages and methods that are presented in hopes of improving my skills as a developer. 
+        </article>  
+    </section>
+    
+    <!-- Previous Projects/Skills Section -->
+    <section>
+        <!-- Past Projects, link to Github -->
+        <h2>Past Projects</h2>
+
+        <pre>
+            One of my favorite past prjects is a small E-Commerce applictaion developed with Python and SQL.
+            It was a difficult challenge that pushed me and really helped me develop my skills as a programmer and developer.
+            The following link leads to my Github repository showing the entire code for this project: 
+        </pre>
+        
+       <a href="https://github.com/TyB3ar/E-Commerce-API/blob/master/app.py">E-Commerce App</a> 
+       
+
+        <p>For more past projects, you can also check out my Github page with the link in my Socials!</p>
+
+        <!-- Current Skillset and Levels(maybe a table?) -->
+         <h2>Skills</h2>
+        
+         <table border="3">
+            <tr>
+                <th>Languages</th>                
+                <th>Proficiency</th>
+                <th>Technologies/Work Environments</th>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Advanced</td>
+                <td>VS Code</td>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Intermediate</td>
+                <td>VS Code</td>
+            </tr>
+            <tr>
+                <td>Javascript</td>
+                <td>Beginner</td>
+                <td>VS Code, React</td>
+            </tr>
+            <tr>
+                <td>SQL</td>
+                <td>Intermediate</td>
+                <td>MySQL, FlaskSQL</td>
+            </tr>
+         </table>
+    </section>
+
+    <!-- Contact Information, Footer or Nav -->
+     <footer>
+        <h2>Contact Me</h2>
+        <form action="submit" method="post">
+            <label for="email">Enter your email:</label>
+            <input type="email" name="email" id="email" placeholder="example@email.com" required>
+
+            <label for="phone">Enter your phone number:</label>
+            <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890"> 
+
+            <p></p>
+
+            <label for="comments">Leave me a comment, or if you wish to get ahold of me another way!:</label>
+            <textarea name="comments" id="comments" rows="2" cols="50" placeholder="Enter Comments/Contact Methods"></textarea>
+
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+
+        <h3>Socials</h3>
+
+        <a href="https://www.linkedin.com/in/tyler-wronski-30497b31a/">LinkedIn<img src="images/linkedin_logo.webp" alt="LinkedIn Logo" style="width: 25px;"></a>   
+        <a href="https://x.com/WronskiTyler">X<img src="images/x_logo.jpg" alt="X Logo" style="width: 30px;"></a>
+        <a href="https://www.instagram.com/wronski_t/">Instagram<img src="images/insta_logo.jpg" alt="Instagram Logo" style="width: 25px;"></a>
+        <a href="https://github.com/TyB3ar">Github<img src="images/github_logo.png" alt="Github Logo" style="width: 25px;"></a>
+     </footer>
+</body>
+</html>
